@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'PokemonFont';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "PokemonFont";
+  src: local("PKMN RBYGSC"),
+    url("./assets/PKMN\ RBYGSC.ttf") format("truetype");
+  font-weight: normal;
+}
